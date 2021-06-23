@@ -1,0 +1,11 @@
+name: recipename
+recipe: wordpress
+config:
+  webroot: root
+  php: 7.3
+  via: apache:2.4
+services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
