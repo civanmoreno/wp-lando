@@ -1,8 +1,8 @@
 name: wplando
 recipe: wordpress
 config:
-  webroot: root
-  php: 7.3
+  webroot: .
+  php: 7.4
   via: 'apache:2.4'
 services:
   pma:
