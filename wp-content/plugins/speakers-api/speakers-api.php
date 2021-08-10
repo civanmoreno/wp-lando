@@ -16,13 +16,14 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 require_once plugin_dir_path(__FILE__) . '/includes/Speaker.php';
+require_once plugin_dir_path(__FILE__) . '/admin/admin.php';
 
-
+/*
 add_action( 'wp_head', 'my_header_scripts' );
 function my_header_scripts(){
     $speaker = new Speaker();
     var_dump($speaker->getSpeakerAll());
     ?>
-    <script>alert( 'Hi Roy' ); </script>
+    <script>alert( 'Hi' ); </script>
     <?php
-}
+}*/
