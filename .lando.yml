@@ -3,6 +3,8 @@ recipe: wordpress
 config:
   webroot: .
   php: 7.4
+  config:
+    php: config/php.ini
   via: 'apache:2.4'
 services:
   pma:
